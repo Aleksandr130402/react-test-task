@@ -1,8 +1,7 @@
 import React from 'react'
-import HomePage from '../../pages/HomePage'
-
 import { Routes, Route } from 'react-router-dom'
-import ClothesItemPage from '../../pages/HomePage/ClothesItemPage'
+import ClothesItemPage from '../../pages/ClothesItemPage'
+import HomePage from '../../pages/HomePage'
 
 export default function App() {
   return (
