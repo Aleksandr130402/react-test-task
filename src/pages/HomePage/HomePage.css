@@ -1,0 +1,12 @@
+.clothes {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+}
+
+.clothes-item-img {
+  max-width: 200px;
+}
+
+.clothes-item-name {
+  margin-top: 1rem;
+}

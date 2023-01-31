@@ -1,0 +1,28 @@
+.goBackButton {
+  text-decoration: none;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+.clothes-item-img-mini {
+  max-width: 100px;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+}
+
+.available {
+  background-color: green;
+}
+
+.clothes-item-sizes {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+}
+
+.clothes-item-color {
+  margin: 1rem 0 1rem 0;
+}
